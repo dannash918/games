@@ -1,7 +1,7 @@
-import TheMindUI from "./_components/TheMindUI";
+import MusicQuizUI from "./_components/MusicQuizUI";
 
 export default function GamePage({ params }: { params: { game_id: string } }) {
 	const gameId = params.game_id;
 
-	return <TheMindUI gameId={gameId} />;
+	return <MusicQuizUI gameId={gameId} />;
 }
